@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+p{
+    background-color:red;
+    color: black;
+    margin: 16px;
+}
+
+body{
+   /* display: none;*/
+    background: url(./images/view-illuminated-neon-gaming-keyboard-setup-controller_23-2149529367.webp);
+    object-fit: contain;
+}
+ul{
+    text-decoration: none;
+    /* list-style-type: upper-roman; */
+    /* list-style: square inside url('./Icons/user.png'); */
+}
+
+#memberID{
+    /*background-color:green;*/
+
+}
+#memberID li{
+    background-color: azure;
+    padding: 8px;
+    margin: 8px;
+}
+
+.maincontainer{
+    background-color: gray;
+}
+.containerTitle{
+    font-size: small;
+    font-weight: lighter;
+}
+
+
+.iconImg{
+    width: 100px;
+    height: 100px;
+}
+.subject{
+    font-weight: bolder;
+    font-family: 'Quicksand', sans-serif;
+}
+.prof{
+    font-weight: lighter;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+.card_con{
+    display: flex;
+    /* width: 100%; */
+}
+
+.card {
+    width: 100%;
+    background-color: green;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.mainContainer{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*body*/
+
+button{
+    font-size: small;
+    padding: 8px;
+    margin: 50px 16px 16px 16px;
+    border-radius: 16px;
+}
+footer{
+    min-height: 200px;
+    background-color: red;
+}
+
+#myImg{
+    width: 100px;
+}
